@@ -1,0 +1,41 @@
+:root{
+
+    /*
+        colors
+    */
+    --color-1:#D6F9DD; /* Nyanza */
+    --color-2:#99F7AB; /* Light green */
+    --color-3:#ABDF75; /* Pistachio */
+    --color-4:#137547; /* Dark spring green */
+    --color-5:#054A29; /* British racing green */
+    
+    /*
+        fonts
+    */
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+header{
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    background-color: var(--color-5);
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: var(--color-1);
+}
+
+h1, h2, h3, h4, h5, h6{
+    /*font-family: var(--font-headers);*/
+    text-transform: uppercase;
+    padding: 0.3rem;
+}
